@@ -46,6 +46,31 @@ A modern, full-featured project management tool built with **Next.js 16**, **Typ
 
 ---
 
+## 🏃‍♂️ Development Sprints
+
+### Sprint 1: Foundation & Basic Architecture
+- Next.js setup with App Router and Tailwind CSS integration
+- Implemented global dark mode design system (`globals.css`)
+- Created mock data structures and interfaces (`mockData.ts`)
+- Configured global Context Provider for state management (`AppContext.tsx`)
+- Built application shell (Sidebar, Header) and basic Dashboard layout
+
+### Sprint 2: Core Task & Project Management
+- Integrated `@dnd-kit` for drag-and-drop Kanban Board functionality
+- Implemented task creation, editing, and status management
+- Built project listing pages with dynamic routing
+- Created reusable modals for Add Project, Add Task, and Edit Task
+- Set up initial Team management interface
+
+### Sprint 3: Advanced Features & Polish
+- Added Dashboard intelligence with auto-updating stat cards (Active Projects, Due Today, Critical Issues)
+- Implemented global search across projects and tasks
+- Added header notifications for upcoming deadlines
+- Enhanced Team page with status toggles (Active, Out on Leave, Inactive) and expandable task lists
+- Built automated project progress tracking based on task completion
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
